@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"king112ola","email":"king112ola@gmail.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/FilterBeginningTextIDD1.pbiviz.json"
+			}
+		],
+		"visual": {"name":"FilterBeginningText","displayName":"Filter Beginning Text","guid":"FilterBeginningTextIDD1","visualClassName":"Visual","version":"1.0.0.0","description":"This visual helps in matching search text and table values from the Beginning, excluding the general way to match the search text within the table values.","supportUrl":"N/A","gitHubUrl":"N/A"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

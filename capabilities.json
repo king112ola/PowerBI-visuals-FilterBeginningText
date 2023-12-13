@@ -1,0 +1,57 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Search",
+      "kind": "GroupingOrMeasure",
+      "name": "Search"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "table": {
+        "rows": {
+          "for": {
+            "in": "Search"
+          },
+          "dataReductionAlgorithm": {
+            "top": {
+              "count": 150000
+            }
+          }
+        }
+      }
+    }
+  ],
+  "objects": {
+    "general": {
+      "displayName": "General",
+      "properties": {
+        "filter": {
+          "type": {
+            "filter": true
+          }
+        },
+        "selfFilter": {
+          "type": {
+            "filter": {
+              "selfFilter": false
+            }
+          }
+        },
+        "rangeSelectionStart": {
+          "type": {
+            "text": true
+          }
+        },
+        "rangeSelectionEnd": {
+          "type": {
+            "text": true
+          }
+        }
+      }
+    }
+  },
+  "privileges": [],
+  "supportsMultiVisualSelection": true,
+  "supportsSynchronizingFilterState": true
+}
